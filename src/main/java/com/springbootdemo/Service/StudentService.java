@@ -14,8 +14,8 @@ public class StudentService {
     @Autowired
     private StudentDao studentDao;
 
-    public Collection<Student> getAlStudents() {
-        return studentDao.getAlStudents();
+    public Collection<Student> getAllStudents() {
+        return studentDao.getAllStudents();
     }
 
     public Student getStudentById(int id) {

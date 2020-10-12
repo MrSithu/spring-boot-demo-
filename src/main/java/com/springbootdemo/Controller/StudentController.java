@@ -21,8 +21,8 @@ public class StudentController {
     private StudentService studentService;
 
     @RequestMapping(method = RequestMethod.GET)
-    public Collection<Student> getAlStudents() {
-        return studentService.getAlStudents();
+    public Collection<Student> getAllStudents() {
+        return studentService.getAllStudents();
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)

@@ -28,7 +28,7 @@ public class StudentDao {
         };
     }
 
-    public Collection<Student> getAlStudents() {
+    public Collection<Student> getAllStudents() {
         return StudentDao.students.values();
     }
 
